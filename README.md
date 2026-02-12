@@ -24,9 +24,28 @@ Locker also supports recovery unlocking using a personal recovery question.
 
 ---
 
+## Compatibility
+
+Locker is supported on **Linux only**.
+
+It relies on:
+
+* OpenSSL CLI
+* tar
+* Standard Linux filesystem layout
+* POSIX-compatible shell behavior
+
+Locker has been tested on **Linux Mint**.
+
+Other Linux distributions may work, but are not officially tested.
+
+Windows and macOS are not supported.
+
+---
+
 ## Requirements
 
-* Linux Mint (or similar Debian-based distro)
+* Linux (tested on Linux Mint)
 * Python 3 (system Python)
 * OpenSSL
 * tar
