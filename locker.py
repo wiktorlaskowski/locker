@@ -16,7 +16,7 @@ VERSION = "1.0"
 # Repo used for update checks
 GITHUB_USER = "wiktorlaskowski"
 GITHUB_REPO = "locker"
-GITHUB_BRANCH = "main"
+GITHUB_BRANCH = "initial"
 REMOTE_VERSION_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/{GITHUB_BRANCH}/VERSION"
 
 HOME = os.path.expanduser("~")
